@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-yandex-personal",
   "description": "ESLint config for Yandex Personal services",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": {
     "name": "Azat Razetdinov",
