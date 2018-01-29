@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-yandex-personal",
+  "description": "ESLint config for Yandex Personal services",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Azat Razetdinov",
+    "email": "razetdinov@gmail.com",
+    "url": "https://github.com/razedinov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yandex-ui/eslint-config-yandex-personal"
+  },
+  "dependencies": {
+    "eslint-config-loris": "9.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.4.0",
+    "eslint-plugin-jsdoc": ">=3.3.1"
+  }
+}
