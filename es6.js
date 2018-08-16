@@ -12,13 +12,14 @@ module.exports = {
         'keyword-spacing': [ 'error', { before: true, after: true, overrides: { catch: { after: false } } } ],
         'no-bitwise': [ 'error' ],
         'no-console': [ 'error', { allow: [ 'warn', 'error' ] } ],
-        'no-empty': [ 'error' ],
+        'no-empty': [ 'error', { allowEmptyCatch: true } ],
         'no-eq-null': [ 'warn' ],
         'no-implicit-coercion': [ 'error', { allow: [ '!!' ] } ],
         'object-curly-spacing': [ 'error', 'always' ],
         'quote-props': [ 'error', 'consistent-as-needed' ],
         'quotes': [ 'error', 'single' ],
         'space-before-function-paren': [ 'error', 'never' ],
-        'strict': [ 'error', 'global' ],
+        'spaced-comment': [ 'error', 'always', { block: { balanced: true } } ],
+        'strict': [ 'error', 'global' ]
     }
 };
