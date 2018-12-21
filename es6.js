@@ -16,6 +16,7 @@ module.exports = {
         'no-eq-null': [ 'warn' ],
         'no-implicit-coercion': [ 'error', { allow: [ '!!' ] } ],
         'object-curly-spacing': [ 'error', 'always' ],
+        'object-shorthand': 'error',
         'quote-props': [ 'error', 'consistent-as-needed' ],
         'quotes': [ 'error', 'single' ],
         'space-before-function-paren': [ 'error', 'never' ],
