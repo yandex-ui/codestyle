@@ -19,7 +19,11 @@ module.exports = {
         'object-shorthand': 'error',
         'quote-props': [ 'error', 'consistent-as-needed' ],
         'quotes': [ 'error', 'single' ],
-        'space-before-function-paren': [ 'error', 'never' ],
+        'space-before-function-paren': [ 'error', {
+            'anonymous': 'never',
+            'named': 'never',
+            'asyncArrow': 'always'
+        }],
         'spaced-comment': [ 'error', 'always', { block: { balanced: true } } ],
         'strict': [ 'error', 'global' ]
     }
